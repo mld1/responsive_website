@@ -1,0 +1,38 @@
+/* Tag selectors */
+
+body {
+    background-color:  blueviolet;
+}
+
+    h1 {
+    color: rgb(168, 197, 187);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: aliceblue;
+}
+
+@media only screen and (max-width: 1000px){
+    body {
+        background-color: blueviolet;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    body {
+        background-color: rgb(204, 201, 40);
+    }
+}
+
+@media only screen and (max-width: 800px){
+    div {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
